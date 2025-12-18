@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Stock Management System",
+    "desc": "Full stack Laravel + React app with auth & CRUD.",
+    "stack": "Laravel · React · MySQL"
+  },
+  {
+    "title": "Messaging System",
+    "desc": "Private & group communication system.",
+    "stack": "Laravel · WebSockets"
+  },
+  {
+    "title": "Semantic Web Project",
+    "desc": "RDF, RDFS, SPARQL teacher profile management.",
+    "stack": "RDF · SPARQL"
+  }
+]
