@@ -1,6 +1,14 @@
-import skills from "../data/skills"
+import { useEffect, useState } from "react";
 
 export default function Skills() {
+  const [skills, setSkills] = useState([]);
+
+  useEffect(() => {
+    fetch("/src/data/skills.json")
+      .then((res) => res.json())
+      .then((data) => setSkills(data));
+  }, []);
+
   return (
     <section id="skills" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
@@ -20,5 +28,5 @@ export default function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }
