@@ -1,6 +1,8 @@
 import Navbar from "./components/Navbar.jsx";
 import Hero from "./components/sections/Hero.jsx";
+import AboutMe from "./components/sections/AboutMe";
 import DarkVeil from "./components/DarkVeil.jsx";
+import Skills from "./components/sections/Skills.jsx";
 
 export default function App() {
   return (
@@ -20,6 +22,8 @@ export default function App() {
   <div className="relative z-10">
     <Navbar />
     <Hero />
+    <AboutMe />
+    <Skills />
   </div>
 </main>
 
