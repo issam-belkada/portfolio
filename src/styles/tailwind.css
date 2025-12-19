@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Neon Cyberpunk Colors */
+:root {
+--color-bg: #030014;
+  --color-neon-pink: #ff00ff;
+  --color-neon-blue: #00eaff;
+  --color-neon-purple: #8a2be2;
+}
+
+/* Background Grid for Hero */
+body {
+  background-color-opacity: 0 ;
+  color: var(--color-neon-blue);
+  font-family: 'Orbitron', sans-serif;
+}
+
+/* Neon glow utility */
+.neon-text {
+  text-shadow:
+    0 0 5px var(--color-neon-pink),
+    0 0 10px var(--color-neon-pink),
+    0 0 20px var(--color-neon-pink);
+}
+
+.neon-border {
+  border-color: var(--color-neon-pink);
+  box-shadow: 0 0 20px var(--color-neon-pink);
+}

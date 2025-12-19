@@ -1,19 +1,12 @@
 [
-  {
-    "title": "Programming",
-    "items": ["C", "Java", "JavaScript", "PHP", "React", "Laravel"]
-  },
-  {
-    "title": "Data & Systems",
-    "items": ["MySQL", "PostgreSQL", "Neo4j", "REST APIs", "JWT Auth"]
-  },
-  {
-    "title": "Concepts",
-    "items": [
-      "Parallel Programming",
-      "Sockets",
-      "Semantic Web (RDF/RDFS)",
-      "Machine Learning basics"
-    ]
-  }
+  "React",
+  "Laravel",
+  "PHP",
+  "JavaScript",
+  "Neo4j",
+  "MySQL",
+  "HTML",
+  "CSS",
+  "Git",
+  "Docker"
 ]

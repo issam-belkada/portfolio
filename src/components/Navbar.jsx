@@ -1,17 +1,15 @@
 export default function Navbar() {
   return (
-    <nav className="w-full fixed top-0 bg-white shadow z-50">
-      <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold">Issam Belkada</h1>
-        <div className="hidden md:flex gap-8 font-medium">
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#education">Education</a>
-          <a href="#contact">Contact</a>
-        </div>
+    <header className="fixed top-0 left-0 w-full backdrop-blur-xl border-b border-neon-pink z-50">
+      <div className="max-w-6xl mx-auto py-4 px-6 flex justify-between items-center text-neon-blue font-sans">
+        <h1 className="text-xl font-bold neon-text">IB</h1>
+        <ul className="flex gap-8 text-sm">
+          <li className="cursor-pointer hover:text-neon-pink transition">Home</li>
+          <li className="cursor-pointer hover:text-neon-pink transition">Skills</li>
+          <li className="cursor-pointer hover:text-neon-pink transition">Projects</li>
+          <li className="cursor-pointer hover:text-neon-pink transition">Contact</li>
+        </ul>
       </div>
-    </nav>
-  )
+    </header>
+  );
 }
