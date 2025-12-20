@@ -16,9 +16,6 @@ export default function App() {
         warpAmount={0.02}
       />
 
-
-
-
   <div className="relative z-10">
     <Navbar />
     <Hero />

@@ -1,42 +1,21 @@
 [
-  {
-    "category": "Programming Languages",
-    "skills": ["JavaScript (ES6+)", "Python", "Java", "C", "PHP", "SQL", "Bash / Shell scripting"]
-  },
-  {
-    "category": "Web Development",
-    "skills": ["HTML5", "CSS3", "TailwindCSS", "React.js", "Node.js (Express)", "PHP (Laravel)", "REST API Development", "Authentication (JWT / Sanctum)"]
-  },
-  {
-    "category": "Databases",
-    "skills": ["PostgreSQL", "MySQL", "Neo4j", "MongoDB", "Oracle"]
-  },
-  {
-    "category": "Cloud & Hosting",
-    "skills": ["Docker", "GitHub Pages Deployment", "Vercel Deployment", "Linux"]
-  },
-  {
-    "category": "Tools & Technologies",
-    "skills": ["Git & GitHub", "Postman (API testing)", "VS Code", "npm"]
-  },
-  {
-    "category": "Software Engineering Concepts",
-    "skills": ["OOP", "MVC Architecture", "Agile & Scrum", "Data Structures & Algorithms", "Design Patterns", "System Analysis & Design", "Software Testing"]
-  },
-  {
-    "category": "AI & Machine Learning",
-    "skills": ["Machine Learning basics", "Deep Learning fundamentals", "Artificial Intelligence principles", "Neural Networks basics", "Generative AI"]
-  },
-  {
-    "category": "Cybersecurity & Networking",
-    "skills": ["Network Fundamentals (TCP/IP)", "Socket Programming", "Computer Networks knowledge", "Security fundamentals (Hashing, SSL/TLS)"]
-  },
-  {
-    "category": "Soft Skills",
-    "skills": ["Problem solving", "Team collaboration", "Project management", "Creativity & innovation", "Communication skills", "Research & documentation"]
-  },
-  {
-    "category": "Special Skills",
-    "skills": ["Systems & Information Engineering", "Business process modeling", "Decision Support Systems", "Database normalization", "UML modeling", "System architecture design"]
-  }
+  { "name": "JavaScript", "icon": "SiJavascript", "level": "ES6+ Advanced" },
+  { "name": "Python", "icon": "SiPython", "level": "Strong scripting" },
+  { "name": "Java", "icon": "FaJava", "level": "OOP mastery" },
+  { "name": "C", "icon": "SiC", "level": "Low level fundamentals" },
+  { "name": "PHP", "icon": "SiPhp", "level": "Backend" },
+  { "name": "HTML5", "icon": "SiHtml5", "level": "Structure expert" },
+  { "name": "CSS3", "icon": "SiCss3", "level": "Styling fundamentals" },
+  { "name": "TailwindCSS", "icon": "SiTailwindcss", "level": "Utility-first" },
+  { "name": "React.js", "icon": "SiReact", "level": "Frontend architecture" },
+  { "name": "Laravel", "icon": "SiLaravel", "level": "PHP framework" },
+  { "name": "Neo4j", "icon": "Neo4jLogo", "level": "Graph DB" },
+  { "name": "PostgreSQL", "icon": "SiPostgresql", "level": "Relational DB" },
+  { "name": "MySQL", "icon": "SiMysql", "level": "Relational DB" },
+  { "name": "MongoDB", "icon": "SiMongodb", "level": "NoSQL" },
+  { "name": "Oracle", "icon": "SiOracle", "level": "Enterprise DB" },
+  { "name": "Docker", "icon": "SiDocker", "level": "Containerization" },
+  { "name": "Git & GitHub", "icon": "SiGit", "level": "Version control" },
+  { "name": "Linux", "icon": "SiLinux", "level": "Sysadmin basics" },
+  { "name": "Postman", "icon": "SiPostman", "level": "API debugging" }
 ]
