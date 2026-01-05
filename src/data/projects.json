@@ -1,12 +1,65 @@
 [
   {
-    "title": "Clubs Management System",
-    "description": "Full system using React, Laravel, Neo4j & PostgreSQL",
-    "link": "https://github.com/issam-belkada/Clubs-management-system"
+    "title": "Portfolio",
+    "description": "Personal portfolio website showcasing skills, projects, and contact information with interactive animations and modern UI.",
+    "link": "https://github.com/issam-belkada/portfolio",
+    "image": "/projects/portfolio.png",
+    "technologies": ["React.js", "Framer Motion", "TailwindCSS", "Next.js"]
   },
   {
-    "title": "Cyberpunk Portfolio",
-    "description": "3D neon animated portfolio with JSON-driven content",
-    "link": "#"
+    "title": "Clubs Management System",
+    "description": "Full web application for managing clubs, members, and activities using a graph database model with advanced relationships and a recommandation system.",
+    "link": "https://github.com/issam-belkada/Clubs-management-system",
+    "image": "/projects/clubs-management-system.png",
+    "technologies": ["React.js","TypeScript", "Laravel", "Neo4j", "PostgreSQL"]
+  },
+  {
+    "title": "Stock Management System",
+    "description": "Inventory management system to track stock levels, manage products, and handle suppliers and transactions.",
+    "link": "https://github.com/issam-belkada/Stock-Management-System",
+    "image": "/projects/stock-management-system.png",
+    "technologies": ["React.js","TailwindCSS", "Laravel", "MySQL", "JWT Auth"]
+  },
+  {
+    "title": "ChatAppJava",
+    "description": "Java-based chat application allowing real-time messaging between users with a graphical user interface.",
+    "link": "https://github.com/issam-belkada/ChatAppJava",
+    "image": "/projects/chatapp-java.png",
+    "technologies": ["Java", "Socket Programming", "JavaFX"]
+  },
+  {
+    "title": "Admin Dashboard",
+    "description": "Responsive admin dashboard with charts, tables, and interactive UI components for managing application data.",
+    "link": "https://github.com/issam-belkada/admin-dashboard",
+    "image": "/projects/admin-dashboard.png",
+    "technologies": ["React.js","JavaScript", "TailwindCSS", "Laravel", "JWT Auth"]
+  },
+  {
+    "title": "Laravel React Chat Application",
+    "description": "Real-time chat using Laravel backend and React frontend with live notifications and message storing.",
+    "link": "https://github.com/issam-belkada/laravel-react-chat-application",
+    "image": "/projects/laravel-react-chat-application.png",
+    "technologies": ["React.js", "Laravel", "Laravel Reverb", "MySQL", "Bootstrap", "Pusher", "inertia.js"]
+  },
+  {
+    "title": "Association Website",
+    "description": "Website for an association with information pages, contact forms, and dynamic content built with Laravel.",
+    "link": "https://github.com/issam-belkada/association-website",
+    "image": "/projects/association-website.png",
+    "technologies": ["React + Vite", "JavaScript", "HTML5", "CSS3"]
+  },
+  {
+    "title": "Laravel Product CRUD",
+    "description": "CRUD (Create, Read, Update, Delete) product management system built with Laravel for backend operations.",
+    "link": "https://github.com/issam-belkada/laravel-product-crud",
+    "image": "/projects/laravel-product-crud.png",
+    "technologies": ["Laravel", "MySQL", "REST API", "Blade Templates", "Bootstrap"]
+  },
+  {
+    "title": "XO Game",
+    "description": "Classic Tic-Tac-Toe (X/O) game implementation with interactive gameplay in the browser.",
+    "link": "https://github.com/issam-belkada/x_o-game",
+    "image": "/projects/xo-game.png",
+    "technologies": ["JavaScript", "HTML5", "CSS3"]
   }
 ]

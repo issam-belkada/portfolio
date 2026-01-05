@@ -1,10 +1,14 @@
 [
   {
-    "company": "Algérie Télécom (Chlef)",
-    "desc": "Network systems & telecom exposure, routing study."
+    "role": "Stage d'imprégnation",
+    "company": "Centre de Recherche sur l’Information Scientifique et Technique (CERIST), Ben Aknoun - Alger",
+    "duration": "Mai 2025",
+    "description": "Exploration des systèmes d’information, du Cloud, du Big Data, de l’IoT et de la cybersécurité, ainsi que des plateformes logicielles et solutions open source développées pour la recherche scientifique."
   },
   {
-    "company": "CERIST Internship",
-    "desc": "Research environment, system architecture practice."
+    "role": "Stage d'imprégnation",
+    "company": "Algérie Télécom Chlef - Chlef",
+    "duration": "Janvier 2025",
+    "description": "Initiation aux réseaux IP/MPLS et aux technologies NGN, avec observation et configuration d’équipements tels que les routeurs, les switches, serveurs BNG/GGC et systèmes de supervision réseau."
   }
 ]

@@ -8,3 +8,23 @@
   --font-sans: "Inter", ui-sans-serif, system-ui;
 }
 
+/* src/index.css */
+
+/* --- Add this at the bottom of your file --- */
+@keyframes scroll-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

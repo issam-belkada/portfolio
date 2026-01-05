@@ -3,6 +3,10 @@ import Hero from "./components/sections/Hero.jsx";
 import AboutMe from "./components/sections/AboutMe";
 import DarkVeil from "./components/DarkVeil.jsx";
 import Skills from "./components/sections/Skills.jsx";
+import Education from './components/sections/Education'; 
+import Projects from "./components/sections/Projects.jsx";
+import Experience from "./components/sections/Experience.jsx";
+import Contact from "./components/sections/Contact.jsx";
 
 export default function App() {
   return (
@@ -21,6 +25,10 @@ export default function App() {
     <Hero />
     <AboutMe />
     <Skills />
+    <Education />
+    <Projects />
+    <Experience />
+    <Contact />
   </div>
 </main>
 
