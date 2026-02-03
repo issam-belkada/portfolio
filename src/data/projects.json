@@ -14,11 +14,11 @@
     "technologies": ["React.js", "Laravel", "Spatie Roles", "PostgreSQL", "TailwindCSS", "Lucide Icons", "Axios"]
   },
   {
-    "title": "Clubs Management System",
+    "title": "Clubs Management System & Social media",
     "description": "Full web application for managing clubs, members, and activities using a graph database model with advanced relationships and a recommandation system.",
     "link": "https://github.com/issam-belkada/Clubs-management-system",
     "image": "clubs-management-system.png",
-    "technologies": ["React.js", "TypeScript", "Laravel", "Neo4j", "PostgreSQL"]
+    "technologies": ["Next.js", "TypeScript", "Laravel", "Neo4j", "PostgreSQL"]
   },
   {
     "title": "Stock Management System",
