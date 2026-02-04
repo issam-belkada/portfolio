@@ -9,7 +9,6 @@
   { "name": "TailwindCSS", "icon": "SiTailwindcss", "level": "Utility-first", "color": "#06B6D4" },
   { "name": "React.js", "icon": "SiReact", "level": "Frontend architecture", "color": "#61DAFB" },
   { "name": "Laravel", "icon": "SiLaravel", "level": "PHP framework", "color": "#FF2D20" },
-  { "name": "Neo4j", "icon": "Neo4jLogo", "level": "Graph DB", "color": "#008CC1" },
   { "name": "PostgreSQL", "icon": "SiPostgresql", "level": "Relational DB", "color": "#4169E1" },
   { "name": "MySQL", "icon": "SiMysql", "level": "Relational DB", "color": "#4479A1" },
   { "name": "MongoDB", "icon": "SiMongodb", "level": "NoSQL", "color": "#47A248" },

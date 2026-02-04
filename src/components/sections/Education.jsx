@@ -4,7 +4,7 @@ import { FaGraduationCap, FaAward, FaBookOpen } from "react-icons/fa";
 
 const educationData = [
   {
-    degree: 'Master\'s in Information Systems Engineering',
+    degree: '2nd Year of the 2nd Cycle Information Systems Engineering',
     institution: 'National Polytechnic School of Oran Maurice-Audin',
     period: '2025 - Present',
     description: 'Deepening expertise in Advanced System Architecture, Business Intelligence, Software Engineering and Modeling, Project Management, Database Administration and Architecture.',
@@ -12,7 +12,7 @@ const educationData = [
     current: true,
   },
   {
-    degree: 'Information Systems Engineering Cycle (Year 1)',
+    degree: '1st Year of the 2nd Cycle Information Systems Engineering',
     institution: 'National Polytechnic School of Oran Maurice-Audin',
     period: '2024 - 2025',
     description: 'Focusing on core information systems, software engineering principles, and complex algorithmic structures.',

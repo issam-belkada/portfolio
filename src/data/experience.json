@@ -1,20 +1,23 @@
 [
   {
     "role": "Développeur Full-stack (SGPR-CERIST)",
-    "company": "Centre de Recherche sur l’Information Scientifique et Technique (CERIST), Ben Aknoun - Alger",
-    "duration": "Janvier 2026 - Présent",
+    "company": "Research Center for Scientific and Technical Information",
+    "logo": "cerist.png",
+    "duration": "Janvier 2026",
     "description": "Conception et développement d'un système de gestion des projets de recherche (SGPR-CERIST)."
   },
   {
     "role": "Stage d'imprégnation",
-    "company": "Centre de Recherche sur l’Information Scientifique et Technique (CERIST), Ben Aknoun - Alger",
+    "company": "Research Center for Scientific and Technical Information",
+    "logo": "cerist.png",
     "duration": "Mai 2025",
-    "description": "Exploration des systèmes d’information, du Cloud, du Big Data, de l’IoT et de la cybersécurité, ainsi que des plateformes logicielles et solutions open source développées pour la recherche scientifique."
+    "description": "Exploration des systèmes d’information, du Cloud, du Big Data, de l’IoT et de la cybersécurité."
   },
   {
     "role": "Stage d'imprégnation",
-    "company": "Algérie Télécom Chlef - Chlef",
+    "company": "Algérie Télécom",
+    "logo": "algerie_telecom.png",
     "duration": "Janvier 2025",
-    "description": "Initiation aux réseaux IP/MPLS et aux technologies NGN, avec observation et configuration d’équipements tels que les routeurs, les switches, serveurs BNG/GGC et systèmes de supervision réseau."
+    "description": "Initiation aux réseaux IP/MPLS et aux technologies NGN, avec observation et configuration d’équipements."
   }
 ]

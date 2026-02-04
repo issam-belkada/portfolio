@@ -63,3 +63,4 @@ body, html {
 .pause-on-hover:hover .animate-marquee-reverse {
   animation-play-state: paused;
 }
+

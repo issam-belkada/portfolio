@@ -16,11 +16,11 @@ const iconMap = {
   SiGit, SiLinux, SiPostman, SiC, FaJava
 };
 
-export default function SkillsCarousel() {
+export default function Skills() {
   // Filtrage et préparation des données
   const processedSkills = useMemo(() => 
     skillsData
-      .filter(s => s.icon !== "Neo4jLogo")
+      .filter(s => s.icon)
       .map(skill => ({
         ...skill,
         Icon: iconMap[skill.icon] || SiReact

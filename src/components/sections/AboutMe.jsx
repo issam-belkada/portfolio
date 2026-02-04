@@ -7,94 +7,104 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="relative w-full min-h-screen flex flex-col items-center justify-center px-6 py-24 bg-gradient-to-b from-black/10 to-black/20"
+      className="relative w-full min-h-screen flex flex-col items-center justify-center px-6 py-24 bg-transparent overflow-hidden"
     >
-      <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-16">
+      {/* Background Decorative Elements */}
+      <div className="absolute top-1/4 -left-20 w-96 h-96 bg-blue-600/10 blur-[120px] rounded-full -z-10" />
+      <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-blue-900/10 blur-[120px] rounded-full -z-10" />
+
+      <div className="max-w-6xl w-full flex flex-col-reverse md:flex-row items-center gap-12 md:gap-20">
 
         {/* ========= TEXT SECTION ========= */}
         <motion.div
           className="flex-1 flex flex-col gap-6"
-          initial={{ opacity: 0, x: -50 }}
+          initial={{ opacity: 0, x: -30 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 1 }}
+          transition={{ duration: 0.8 }}
         >
-          <h2 className="text-5xl md:text-6xl font-extrabold text-[#1E90FF] drop-shadow-[0_0_20px_rgba(30,144,255,0.8)] tracking-tighter uppercase italic">
-            About Me
-          </h2>
+          <div className="flex flex-col gap-2">
+            <span className="text-blue-500 font-black uppercase tracking-[0.3em] text-xs">Who I Am</span>
+            <h2 className="text-5xl md:text-7xl font-black text-white tracking-tighter uppercase italic">
+              About <span className="text-blue-600 drop-shadow-[0_0_15px_rgba(37,99,235,0.4)]">Me</span>
+            </h2>
+            <div className="h-1.5 w-20 bg-blue-600 rounded-full mt-2" />
+          </div>
 
-          <p className="text-xl md:text-2xl font-bold text-white/90 border-l-4 border-[#1E90FF] pl-4">
-            Passionate About Systems, Software, and Innovation
+          <div className="relative group">
+            <p className="text-xl md:text-2xl font-bold text-white leading-tight">
+              Passionate About <span className="text-blue-400">Systems</span>, <br />
+              Software, and <span className="text-blue-400">Innovation</span>
+            </p>
+          </div>
+
+          <p className="text-neutral-400 leading-relaxed text-base md:text-lg font-medium max-w-xl">
+            I am <span className="text-white font-bold border-b-2 border-blue-600">Issam BELKADA</span>, 
+            a Systems & Information Engineer specializing in software development, web technologies, and AI. 
+            I build intelligent, efficient, and user-focused solutions using strong foundations in algorithms and system architectures.
           </p>
 
-          <p className="text-white/70 leading-relaxed text-lg md:text-xl italic">
-            I am <span className="text-white font-semibold underline decoration-[#1E90FF] decoration-2 underline-offset-4">Issam BELKADA</span>, a Systems & Information Engineer specializing in
-            software development, web technologies, and AI. I build intelligent,
-            efficient, and user-focused solutions using strong foundations in
-            algorithms, databases, and system architectures.
-          </p>
-
-          {/* Stats Cards */}
-          <div className="flex flex-wrap gap-6 mt-6">
-            <motion.div
-              className="bg-[#1E90FF]/10 border border-[#1E90FF]/30 backdrop-blur-md rounded-2xl px-8 py-6 text-center flex-1 min-w-[160px]"
-              whileHover={{ 
-                y: -10, 
-                backgroundColor: "rgba(30, 144, 255, 0.2)",
-                borderColor: "rgba(30, 144, 255, 0.6)",
-                boxShadow: "0 15px 30px rgba(30,144,255,0.3)" 
-              }}
-              transition={{ duration: 0.3 }}
-            >
-              <span className="text-4xl md:text-5xl font-black text-[#1E90FF] block">
-                3+
-              </span>
-              <p className="text-white font-bold mt-2 uppercase tracking-tighter text-sm">Years of Study</p>
-            </motion.div>
-
-            <motion.div
-              className="bg-[#1E90FF]/10 border border-[#1E90FF]/30 backdrop-blur-md rounded-2xl px-8 py-6 text-center flex-1 min-w-[160px]"
-              whileHover={{ 
-                y: -10, 
-                backgroundColor: "rgba(30, 144, 255, 0.2)",
-                borderColor: "rgba(30, 144, 255, 0.6)",
-                boxShadow: "0 15px 30px rgba(30,144,255,0.3)" 
-              }}
-              transition={{ duration: 0.3 }}
-            >
-              <span className="text-4xl md:text-5xl font-black text-[#1E90FF] block">
-                10+
-              </span>
-              <p className="text-white font-bold mt-2 uppercase tracking-tighter text-sm">Projects Completed</p>
-            </motion.div>
+          {/* Stats Cards - Modernized */}
+          <div className="grid grid-cols-2 gap-4 mt-4">
+            {[
+              { label: "Years of Study", val: "3+" },
+              { label: "Projects Done", val: "10+" }
+            ].map((stat, idx) => (
+              <motion.div
+                key={idx}
+                whileHover={{ y: -5, borderColor: "rgba(37, 99, 235, 0.5)" }}
+                className="bg-neutral-900/50 border border-white/5 backdrop-blur-xl rounded-2xl p-6 flex flex-col gap-1 transition-colors"
+              >
+                <span className="text-3xl md:text-4xl font-black text-blue-500 tracking-tighter italic">
+                  {stat.val}
+                </span>
+                <span className="text-white/40 uppercase font-black text-[10px] tracking-widest leading-none">
+                  {stat.label}
+                </span>
+              </motion.div>
+            ))}
           </div>
         </motion.div>
 
         {/* ========= IMAGE SECTION ========= */}
         <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 1, delay: 0.3 }}
-          className="flex-1 flex justify-center md:justify-end"
+          transition={{ duration: 0.8 }}
+          className="flex-1 flex justify-center md:justify-end relative"
         >
-          <motion.div
-            whileHover={{ rotateY: 15, rotateX: -10, scale: 1.05 }}
-            transition={{ type: "spring", stiffness: 100, damping: 15 }}
-            className="relative cursor-pointer w-[280px] md:w-[360px] lg:w-[420px] rounded-3xl [transform-style:preserve-3d]"
-          >
-            {/* Image Glow Effect */}
-            <div className="absolute -inset-2 bg-[#1E90FF]/20 blur-2xl rounded-3xl -z-10 group-hover:bg-[#1E90FF]/40 transition-all duration-500"></div>
+          <div className="relative group">
+            {/* Animated Frame Behind Image */}
+            <div className="absolute -inset-4 border border-blue-600/20 rounded-[2rem] -z-10 group-hover:-inset-2 transition-all duration-500" />
             
-            <img
-              src={aboutmePic}
-              alt="Issam Belkada Software Engineer"
-              className="rounded-3xl w-full h-auto object-cover border border-white/10 shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
-            />
+            {/* Floating Info Tag */}
+            <motion.div 
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+              className="absolute -top-6 -right-6 bg-blue-600 text-white font-black text-xs px-4 py-2 rounded-full shadow-xl z-20 italic uppercase tracking-widest hidden md:block"
+            >
+              Available for work
+            </motion.div>
 
-            {/* Floating Frame Effect */}
-            <div className="absolute inset-0 rounded-3xl border-2 border-white/5 pointer-events-none"></div>
-          </motion.div>
+            <div className="relative overflow-hidden rounded-[2rem] border border-white/10 shadow-2xl w-[280px] md:w-[380px] lg:w-[440px]">
+              <motion.img
+                whileHover={{ scale: 1.05 }}
+                transition={{ duration: 0.6 }}
+                src={aboutmePic}
+                alt="Issam Belkada"
+                className="w-full h-auto object-cover grayscale-[20%] group-hover:grayscale-0 transition-all duration-700"
+              />
+              
+              {/* Scanline Animation Effect */}
+              <div className="absolute inset-0 bg-gradient-to-b from-transparent via-blue-500/10 to-transparent h-1/2 w-full -top-full group-hover:top-full transition-all duration-[1.5s] ease-in-out pointer-events-none" />
+              
+              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60" />
+            </div>
+
+            {/* Accent Corner */}
+            <div className="absolute -bottom-4 -left-4 w-20 h-20 border-l-4 border-b-4 border-blue-600 rounded-bl-3xl -z-10" />
+          </div>
         </motion.div>
 
       </div>

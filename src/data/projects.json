@@ -4,28 +4,28 @@
     "description": "Personal portfolio website showcasing skills, projects, and contact information with interactive animations and modern UI.",
     "link": "https://github.com/issam-belkada/portfolio",
     "image": "portfolio.png",
-    "technologies": ["React.js", "Framer Motion", "TailwindCSS", "Vite"]
+    "technologies": ["React.js", "Framer Motion", "TailwindCSS", "Vite","git","github"]
   },
   {
     "title": "SGPR-CERIST",
     "description": "Système de Gestion des Projets de Recherche pour le CERIST. Inclut une gestion multi-rôles (Chercheurs, Chefs de Division), des tableaux de bord analytiques, et un suivi dynamique des livrables et des Work Packages.",
     "link": "https://github.com/issam-belkada/sgpr-cerist",
     "image": "sgpr-cerist.png",
-    "technologies": ["React.js", "Laravel", "Spatie Roles", "PostgreSQL", "TailwindCSS", "Lucide Icons", "Axios"]
+    "technologies": ["React.js", "Laravel", "Spatie Roles", "PostgreSQL", "TailwindCSS", "Lucide Icons", "Axios", "git", "github"]
   },
   {
     "title": "Clubs Management System & Social media",
     "description": "Full web application for managing clubs, members, and activities using a graph database model with advanced relationships and a recommandation system.",
     "link": "https://github.com/issam-belkada/Clubs-management-system",
     "image": "clubs-management-system.png",
-    "technologies": ["Next.js", "TypeScript", "Laravel", "Neo4j", "PostgreSQL"]
+    "technologies": ["Next.js", "TypeScript", "Laravel", "Neo4j", "PostgreSQL", "TailwindCSS", "git", "github"]
   },
   {
     "title": "Stock Management System",
     "description": "Inventory management system to track stock levels, manage products, and handle suppliers and transactions.",
     "link": "https://github.com/issam-belkada/Stock-Management-System",
     "image": "stock-management-system.png",
-    "technologies": ["React.js", "TailwindCSS", "Laravel", "MySQL", "Sanctum Auth"]
+    "technologies": ["React.js", "TailwindCSS", "Laravel", "MySQL", "Sanctum Auth", "git", "github"]
   },
   {
     "title": "ChatAppJava",
